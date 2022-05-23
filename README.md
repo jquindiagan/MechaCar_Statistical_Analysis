@@ -4,7 +4,12 @@
 
 ### Purpose
 
-The purpose of this analysis is 
+The purpose of this analysis is to review MechaCar production data for insights on mpg predictions, summary statistics,
+
+Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
 
@@ -14,10 +19,10 @@ The purpose of this analysis is
 
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
-
+The p-value of our linear regression analysis is 5.35 x 10-7, which is much smaller than our assumed significance level of 0.05%. Therefore, the slope of our linear model is not zero.
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
+From our linear regression model, the r-squared value is 0.7149, which means that roughly 71% of mpg data is explained using this linear model. This is a fairly effective prediction but means other variables should be considered.
 
 ## Summary Statistics on Suspension Coils
 
@@ -31,7 +36,7 @@ The purpose of this analysis is
 
 ### Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
-<img src="Resources/ttest_all.png" width=60% height=60%>
+<img src="Resources/ttest_all.png" width=50% height=50%>
 <img src="Resources/ttest_lot1.png" width=60% height=60%>
 <img src="Resources/ttest_lot2.png" width=60% height=60%>
 <img src="Resources/ttest_lot3.png" width=60% height=60%>
