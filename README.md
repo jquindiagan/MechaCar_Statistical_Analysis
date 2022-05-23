@@ -36,9 +36,20 @@ From our linear regression model, the r-squared value is 0.7149, which means tha
 
 ### Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
+### T-Test: All Lots
+The t-test p-value of all lots is about 0.06, which is over the significance level of 0.05. This means the null hypothesis cannot be rejected, and the mean of all the lots combined is statistically similar to the population mean of 1500.
 <img src="Resources/ttest_all.png" width=50% height=50%>
+
+### T-Test: Lot 1
+The t-test p-value of Lot 1 is 1, which means the null hypothesis cannot be rejected and suggests the mean of Lot 1 is statistically identical to the population mean of 1500.
 <img src="Resources/ttest_lot1.png" width=60% height=60%>
+
+### T-Test: Lot 2
+The t-test p-value of Lot 2 is about 0.61, which is well over the significance level of 0.05. This means the null hypothesis cannot be rejected, and the mean of Lot 2 is statistically similar to the population mean of 1500.
 <img src="Resources/ttest_lot2.png" width=60% height=60%>
+
+### T-Test: Lot 3
+The t-test p-value of Lot 3 is about 0.04, which is under the significance level of 0.05. This means the null hypothesis can be rejected, and the mean of Lot 3 is not statistically similar to the population mean of 1500.
 <img src="Resources/ttest_lot3.png" width=60% height=60%>
 
 ## Study Design: MechaCar vs Competition.
