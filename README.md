@@ -4,12 +4,7 @@
 
 ### Purpose
 
-The purpose of this analysis is to review MechaCar production data for insights on mpg predictions, summary statistics,
-
-Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+The purpose of this project is to use R to perform an analysis on MechaCar production data. Multiple linear regression analyses are performed to identify which dataset variables predict mpg, collect summary statistics, and determine if manufacturing lots are statistically different from the mean population.
 
 ## Linear Regression to Predict MPG
 
@@ -17,6 +12,7 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
+Vehicle length and ground clearance provided a non-random amount of variance to the mpg values. In other words, they have a significant impact on the mpg of the MechaCar.
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
 
@@ -34,7 +30,7 @@ As a whole, the variance is within those specifications.
 
 <img src="Resources/PSI_summary.png" width=60% height=60%>
 
-Individually, however, Lot 3 is the only lot that does not meet those specifications with a variance of about 170 pounds per square inch.
+Individually, however, Lot 3 is the only lot that does not meet those specifications with a variance of about 170 pounds per square inch. This may indicate some issues in production.
 
 <img src="Resources/manufact_summary.png" width=60% height=60%>
 
